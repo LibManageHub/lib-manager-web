@@ -1,3 +1,7 @@
 export default function Home() {
-  return <div className="">Hello world</div>;
+  return (
+    <div className="h-full w-full flex items-center justify-center">
+      Home page
+    </div>
+  );
 }
